@@ -32,8 +32,8 @@
         color: var(--text);
         background:
           radial-gradient(circle at 12% 10%, #334155 0%, transparent 36%),
-          radial-gradient(circle at 88% 84%, #7c2d12 0%, transparent 44%),
-          linear-gradient(140deg, var(--bg-1), var(--bg-2));
+          radial-gradient(circle at 88% 84%, #059669 0%, transparent 44%),
+          linear-gradient(140deg, var(--bg-1), #059669);
         font-family: "Manrope", sans-serif;
         display: grid;
         place-items: center;
@@ -90,7 +90,7 @@
         border-radius: 1rem;
         border: 1px solid rgba(148, 163, 184, 0.26);
         background:
-          linear-gradient(135deg, rgba(249, 115, 22, 0.2), transparent 50%),
+          linear-gradient(135deg, rgba(16, 185, 129, 0.2), transparent 50%),
           var(--panel);
         backdrop-filter: blur(6px);
         box-shadow:
@@ -106,10 +106,10 @@
       .card:hover,
       .card:focus-visible {
         transform: translateY(-3px) scale(1.01);
-        border-color: var(--ring);
+        border-color: #059669;
         box-shadow:
           0 18px 38px rgba(2, 6, 23, 0.6),
-          0 0 0 1px var(--ring);
+          0 0 0 1px #059669;
         outline: none;
       }
 
@@ -135,9 +135,9 @@
         text-transform: uppercase;
         letter-spacing: 0.08em;
         border-radius: 999px;
-        color: #fed7aa;
-        background: rgba(194, 65, 12, 0.38);
-        border: 1px solid rgba(251, 146, 60, 0.45);
+        color: #bbf7d0;
+        background: rgba(16, 185, 129, 0.38);
+        border: 1px solid rgba(16, 185, 129, 0.45);
       }
 
       @keyframes rise {
