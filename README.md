@@ -11,6 +11,16 @@ This repository contains lightweight apps, each in its own folder.
 
 - `countdown`
 
+## Deployment
+
+Deployed apps are available at:
+
+- `https://smithworx.github.io/apps/{app_name}`
+
+Example:
+
+- `https://smithworx.github.io/apps/countdown`
+
 ## Adding a new app
 
 1. Create a new folder at the repo root (for example, `my-app`).
